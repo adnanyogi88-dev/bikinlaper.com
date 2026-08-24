@@ -1,0 +1,57 @@
+name: Restore archived BikinLaper website
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '.site-restore/manifest.json'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: restore-bikinlaper-website
+  cancel-in-progress: false
+
+jobs:
+  restore:
+    if: "!startsWith(github.event.head_commit.message, '[restored]')"
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out staged recovery data
+        uses: actions/checkout@v4
+      - name: Validate and restore the complete static website
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import hashlib, json, pathlib, shutil, zipfile
+          staging = pathlib.Path('.site-restore')
+          manifest = json.loads((staging / 'manifest.json').read_text())
+          archive = pathlib.Path('/tmp/bikinlaper-recovered.zip')
+          digest = hashlib.sha256()
+          with archive.open('wb') as output:
+              for item in manifest['parts']:
+                  payload = (staging / item['name']).read_bytes()
+                  assert len(payload) == item['size'], item['name']
+                  assert hashlib.sha256(payload).hexdigest() == item['sha256'], item['name']
+                  output.write(payload)
+                  digest.update(payload)
+          assert archive.stat().st_size == manifest['size']
+          assert digest.hexdigest() == manifest['sha256']
+          with zipfile.ZipFile(archive) as source:
+              for item in source.infolist():
+                  name = pathlib.PurePosixPath(item.filename)
+                  assert not name.is_absolute() and '..' not in name.parts
+              source.extractall('.')
+          shutil.rmtree(staging)
+          print(f"Restored {manifest['site_files']} website files from {len(manifest['parts'])} verified parts.")
+          PY
+      - name: Publish the restored website to the main branch
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add --all
+          git commit -m '[restored] Publish complete original BikinLaper website'
+          git push origin HEAD:main
