@@ -47,6 +47,30 @@ jobs:
           shutil.rmtree(staging)
           print(f"Restored {manifest['site_files']} website files from {len(manifest['parts'])} verified parts.")
           PY
+      - name: Search the Internet Archive for original missing article images
+        continue-on-error: true
+        timeout-minutes: 4
+        shell: bash
+        run: python3 _recovery/recover_archived_images.py
+      - name: Refresh article thumbnails after archive recovery
+        continue-on-error: true
+        timeout-minutes: 3
+        shell: bash
+        run: |
+          python3 -m pip install --disable-pip-version-check --quiet lxml Pillow
+          python3 _recovery/repair_site.py
+      - name: Refresh complete file checksums
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import hashlib, pathlib
+          root = pathlib.Path('.')
+          target = root / 'CHECKSUMS_SHA256.txt'
+          lines = []
+          for item in sorted(path for path in root.rglob('*') if path.is_file() and path != target and '.git' not in path.parts and '__pycache__' not in path.parts):
+              lines.append(f"{hashlib.file_digest(item.open('rb'), 'sha256').hexdigest()}  {item.as_posix()}\n")
+          target.write_text(''.join(lines), encoding='utf-8')
+          PY
       - name: Publish the restored website to the main branch
         shell: bash
         run: |
