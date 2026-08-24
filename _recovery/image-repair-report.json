@@ -1,0 +1,11 @@
+{
+  "manifest_images_recovered": 0,
+  "known_attachment_ids": 37,
+  "matched_image_alt_labels": 295,
+  "assigned_missing_attachment_images": 0,
+  "available_image_families": 102,
+  "primary_images_repaired": 47,
+  "html_pages_repaired": 47,
+  "primary_image_alt_corrected": 5,
+  "unresolved_primary_images": []
+}

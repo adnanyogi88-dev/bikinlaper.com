@@ -1,0 +1,622 @@
+{
+  "requested_original_images": 153,
+  "indexed_original_images": 0,
+  "recovered_original_images": 0,
+  "unavailable_original_images": 153,
+  "index_error": null,
+  "recovered": [],
+  "unavailable": [
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2023/10/Warung-Kharisma-Bahari-WKB-1-400x300.webp",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2023/10/8f02ef68d3dfec9d672bef453f80201c_thumb.jpg",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2023/10/avocado-tuna-spinach-salad-f8048f77ff6b45038adca1c06cb178d3.jpg",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2016/12/food19.jpg-400x267.webp",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2023/10/bisnis-kuliner-yang-menjanjikan.webp",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2023/10/franchise-cafe-400x225.webp",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2023/10/ayam-pangg.jpg",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2016/12/food18.jpg-400x267.webp",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2023/10/Warung-Kharisma-Bahari-WKB-1.webp",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2023/10/bisnis-kuliner-yang-menjanjikan-400x281.webp",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2023/10/menu-nasi-goreng.webp",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2023/10/menu-nasi-goreng-400x225.webp",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2023/10/oat-meal-400x266.jpg",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2023/10/sering-merasa-mudah-lapar-8-hal-ini-penyebabnya-rev-1.jpg",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2023/10/interior-shot-cafe-with-chairs-near-bar-with-wooden-tables-650x434.jpg",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2023/10/overnight-oats-500x500-2-400x400.jpg",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2023/10/sushi-jepang.webp",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2023/10/warteg-bahari.jpeg",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2023/10/oat-meal.jpg",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2023/10/sushi-jepang-400x240.webp",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2023/10/franchise-cafe.webp",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2023/11/1391693950_a-d4-NOpvChcmRjtHCqFYsU5rMpHYmMBs7zOOrUAlj4.jpg",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2023/11/1391693950_a-d4-NOpvChcmRjtHCqFYsU5rMpHYmMBs7zOOrUAlj4-400x400.jpg",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2023/10/warteg.jpg",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2023/10/sering-merasa-mudah-lapar-8-hal-ini-penyebabnya-rev-1-400x200.jpg",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2023/11/Mengungkap-Kelezatan-Warisan-Kuliner-Indonesia-Restoran-Padang-Pagi-Sore-400x320.webp",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2023/11/Mengungkap-Kelezatan-Warisan-Kuliner-Indonesia-Restoran-Padang-Pagi-Sore.webp",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2023/11/052c7fafeb28b85eb9fe24850170fe51-400x300.webp",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2023/11/ayam-taliwang.webp",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2023/11/coto-makasar-400x267.jpg",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2023/11/coto-makasar.jpg",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2023/11/djki.png",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2023/11/dominos-pizza-400x362.webp",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2023/11/dominos-pizza.webp",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2023/11/es-buah2.jpeg",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2023/11/indomie-400x335.png",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2023/11/Cocktail1.jpg",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2023/11/es-buah2-400x225.jpeg",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2023/11/Solaria.webp",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2023/11/jumpstart-400x600.jpg",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2023/11/Cocktail1-400x600.jpg",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2023/11/martabak-enak-di-bandung-4_169.jpg",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2023/11/martabak.jpeg",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2023/11/jumpstart-scaled.jpg",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2023/11/mie-akung-400x291.jpg",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2023/11/sake-400x225.webp",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2023/11/shihlin-400x400.jpg",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2023/11/shihlin.jpg",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2023/11/subway-400x225.jpeg",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2023/11/subway.jpeg",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2023/11/smoothie.webp",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2023/11/swarma-gaza.jpg",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2023/11/tengkleng.jpg",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2023/11/smoothie-400x267.webp",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2023/11/waroeng-steak.webp",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2023/11/swarma-gaza-400x200.jpg",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2023/11/warteg-putri-bahari.jpg",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2023/12/dumdum.webp",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2023/12/imuniti.png",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2023/12/kue-natal-400x267.jpg",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2023/12/kue-natal.jpg",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2023/12/kuliner-natal-400x198.jpg",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2023/11/martabak-400x267.jpeg",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2023/12/kuliner-natal.jpg",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2023/12/makanan-sehat.jpg",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2023/12/putri-bahari-400x245.webp",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2023/12/abuba-steak.webp",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2023/11/waroeng-steak-650x434.webp",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2023/12/makanan-sehat-400x207.jpg",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2023/12/tahun-baru-1-400x267.jpg",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2023/11/indomie.png",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2024/01/Asam-folat.jpg-400x265.webp",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2023/12/putri-bahari-650x398.webp",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2024/01/14.-Resep-Martabak-Mesir-Sambal-Geprek-Ala-Rumahan-400x266.jpg",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2023/12/sup-kream-labu-400x200.jpg",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2023/12/sup-kream-labu.jpg",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2024/01/es-teh-nusantara-400x300.webp",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2024/01/Asam-folat.jpg.webp",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2024/01/Makanan-Member-NCT-Dream-1-400x267.webp",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2024/01/gingerbread-characters-89148366e429d5eb45875423a4da00b3_600x400.jpg",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2024/01/kue-cubit.jpeg",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2024/01/kue-cubit-400x267.jpeg",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2024/01/gingerbread-characters-89148366e429d5eb45875423a4da00b3_600x400-400x267.jpg",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2024/01/es-teh-nusantara.webp",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2024/01/kue-madeline-400x267.jpg",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2024/01/makanan-cepat-saji.jpg",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2024/01/cropped-Logo-Join-Kuliner-Bikin-Laper-01_1.jpg",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2024/01/original.png",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2024/01/original-400x221.png",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2024/01/kue-madeline.jpg",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2024/01/makanan-cepat-saji-400x225.jpg",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2024/01/tanboykun.jpg",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2024/01/warteg-putri-bahari.webp",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2024/01/warteg-putri-bahari-400x245.webp",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2024/02/657da67d37c7f-ramen-seirock-ya.webp",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2024/01/peluang-usaha-makanan-internasional-di-Indonesia-400x225.jpg",
+      "result": "invalid_image_payload"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2024/02/henshin-jakarta-400x180.webp",
+      "result": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2024/02/henshin-jakarta.webp",
+      "result": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2024/02/ayam-goreng.jpg",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2024/02/frozen-food-300x185-1.jpg",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2024/02/kuliner-paling-laku-di-indonesia-400x500.jpg",
+      "result": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2024/02/kuliner-paling-laku-di-indonesia.jpg",
+      "result": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2024/01/binar-frozen-food.png",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2024/02/p_headline_kisah-venjii-hernando-pebisnis-yang-pun-1f153d-400x200.jpg",
+      "result": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2024/02/p_headline_kisah-venjii-hernando-pebisnis-yang-pun-1f153d.jpg",
+      "result": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2024/02/raden-bahari-400x300.webp",
+      "result": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2024/02/raden-bahari.webp",
+      "result": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2024/02/variasi-otak-otal.jpg",
+      "result": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2024/02/variasi-otak-otal-400x267.jpg",
+      "result": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2024/02/ramen-seirock-ya-400x243.jpg",
+      "result": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2024/03/2021-08-15-400x267.webp",
+      "result": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2024/03/2021-08-15.webp",
+      "result": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2024/03/WhiteboardJournal-Placestogo-NasiUdukGaulBuWiri-1.jpg",
+      "result": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2024/03/WhiteboardJournal-Placestogo-NasiUdukGaulBuWiri-1-400x267.jpg",
+      "result": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2024/03/bazar-takjil-benhil-400x267.webp",
+      "result": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2024/03/bosan_model_bulat_yuk_cobain_nastar_kekinian_dengan_beragam_bentuk-400x235.jpg",
+      "result": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2024/03/bazar-takjil-benhil.webp",
+      "result": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2024/03/franchise-roti_11zon-1000x600.jpg",
+      "result": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2024/03/franchise-roti_11zon.jpg",
+      "result": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2024/03/bosan_model_bulat_yuk_cobain_nastar_kekinian_dengan_beragam_bentuk.jpg",
+      "result": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2024/03/hanami-pati-400x400.jpg",
+      "result": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2024/03/hanami-pati.jpg",
+      "result": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2024/03/kue-dan-jajanan-300x225.jpg",
+      "result": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2024/03/kue-dan-jajanan.jpg",
+      "result": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2024/03/nasi-uduk-cipete-xxi.webp",
+      "result": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2024/04/Resep_perkedel_kentang_daging.width-800.jpg",
+      "result": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2024/04/bakmi_gm_1692680061-1000x600.webp",
+      "result": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2024/04/Screenshot-2024-04-16-153124.png",
+      "result": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2024/04/bakmi_gm_1692680061.webp",
+      "result": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2024/04/cara-memasak-ikan-pating.jpeg",
+      "result": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2024/04/franchise-es-teh.webp",
+      "result": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2024/02/ayam-goreng-400x266.webp",
+      "result": "not_archived"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2024/04/franchise-mie-kober.webp",
+      "result": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2024/04/menu-lebaran-kekinian.jpg",
+      "result": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2024/04/ini-resep-bakso-malang-lezat-yang-menggugah-selera-halodoc.jpg.webp",
+      "result": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2024/04/nasi-kebuli-lebaran.jpg",
+      "result": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2024/04/olahan-nasi-sisa-buat-cemilan.jpg",
+      "result": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2024/04/pexels-nine-117702-5030168-scaled.jpg",
+      "result": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2024/04/resep-usus-bumbu-kuning-1_43.jpeg",
+      "result": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2024/04/review-breezy-cafe-1000x576.jpg",
+      "result": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2024/04/pexels-nine-117702-5030168-1000x600.jpg",
+      "result": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2024/04/review-breezy-cafe.jpg",
+      "result": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2024/04/sate-tegal-pak-ahmad.webp",
+      "result": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2024/05/es-cekek.webp",
+      "result": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2024/04/warteg-gang-mangga.jpg",
+      "result": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2024/04/warteg-21-pulomas.jpg",
+      "result": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2024/06/mie-gacoan-700x600.webp",
+      "result": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2024/06/mie-gacoan.webp",
+      "result": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2024/07/image1-12.jpg",
+      "result": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2024/09/WhatsApp-Image-2024-09-08-at-09.08.27-1000x600.jpg",
+      "result": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2025/01/logo-bisnis-naik-kelas-1-1000x600.webp",
+      "result": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2024/09/WhatsApp-Image-2024-09-08-at-09.08.27.jpg",
+      "result": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://bikinlaper.com/wp-content/uploads/2025/01/logo-bisnis-naik-kelas-1.webp",
+      "result": "HTTP Error 429: Too Many Requests"
+    }
+  ]
+}

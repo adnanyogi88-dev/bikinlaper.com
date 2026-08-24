@@ -1,0 +1,24 @@
+{
+  "domain": "bikinlaper.com",
+  "safe_from": "2023",
+  "safe_to": "20251011",
+  "total": 1950,
+  "downloaded": 1939,
+  "failed": 11,
+  "quarantined": 6,
+  "rewrite_failures": 0,
+  "html_pages": 661,
+  "sitemap_articles": 228,
+  "articles_missing_from_sitemap": 0,
+  "reconstructed_missing_thumbnail_images": 6,
+  "restored_legacy_theme_assets": 4,
+  "image_elements_missing_sources_after_repair": 0,
+  "quarantined_paths": [
+    "zakady-sportowe-forum-informatiques-i-muzyk-standard-water-treatment-plant-within-indi-clinica-hb.bin",
+    "vbet-vbet-ukraina-bukmekerskaja-kontora-vbet-skachat-registratsija-s-bonusom-vhod-na-sajt-otzyv.bin",
+    "os-15-bons-sites-de-apostas-esportiva.bin",
+    "esports-porownanie-kursow-bukmacherskich-watts-lipiec-202.bin",
+    "bbrbet-cassino-online-recebe-um-bonus-de-boas-vindas-pra-jogar-catsa-niqueis-e-jogos-crash.bin",
+    "page/25.bin"
+  ]
+}
