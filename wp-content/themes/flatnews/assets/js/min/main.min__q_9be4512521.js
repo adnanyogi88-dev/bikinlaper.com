@@ -113,3 +113,125 @@ k)+"&text="+encodeURIComponent(a(".locked-content-data").attr("data-title"))+'" 
 "fb_comment_id"in g?r="facebook":"#comment-"in g&&(r="disqus");a("#comments").each(function(){0==a(".comments").length?a(this).show():(0==a("."+flatnews.primary_comment_system+"-comments").length?a(".comments").first().addClass("active"):a("."+flatnews.primary_comment_system+"-comments").addClass("active"),a(".comments.active .comments-title").addClass("active").appendTo(a("#comments-title-tabs-links")),a(".comments .comments-title").appendTo(a("#comments-title-tabs-links")),a("#comments-title-tabs-links .comments-title").addClass("comments-title-tab"),
 r!=flatnews.primary_comment_system&&(a("#comments-title-tabs-links a.active").removeClass("active"),a(".comments.active").removeClass("active"),a("#comments-title-tabs-links a."+r+"-comments-title").addClass("active"),a("."+r+"-comments").addClass("active")),a("#comments-title-tabs-links a").click(function(){a(this).is(".active")||(a("#comments-title-tabs-links a.active, .comments.active").removeClass("active"),a(this).addClass("active"),a(a(this).attr("data-target")).addClass("active"))}))});if(a(".ajax-comment-count").length)var t=
 setInterval(function(){0==a(".ajax-comment-count").length?clearInterval(t):a(".ajax-comment-count").each(function(){var b=a(this).text();if(""!=b&&null!==b&&(isNaN(b)&&(b=b.split(" ")[0]),!isNaN(b))){b=Number(b);var c=a(this).attr("data-system"),d=a(this).attr("data-id");a(this).remove();a.post(flatnews.ajax_url,{action:"flatnews_save_comment_count",id:d,count:b,system:c})}})},100)}});
+/* Contextual Meat & Fish references for relevant editorial pages. */
+(function () {
+  "use strict";
+
+  function onReady(callback) {
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", callback);
+    } else {
+      callback();
+    }
+  }
+
+  var destinations = [
+    {
+      test: /\b(franchise|waralaba|kemitraan)\b/,
+      context: "Untuk membandingkan model usaha dan dukungan kemitraan, pelajari juga",
+      primary: ["prospek bisnis frozen food Meat & Fish", "https://meatfish.id/prospek-bisnis-frozen-food-2026-resmi-dibuka-peluang-besar-bersama-meatfish-di-era-konsumsi-modern/"],
+      companion: ["panduan franchise meat shop", "https://meatfish.co.id/franchise-meat-shop/"]
+    },
+    {
+      test: /\b(seafood|udang|cumi|kerang|kepiting|lobster)\b/,
+      context: "Untuk melengkapi pembahasan seafood dan cara memilih bahan yang baik, baca",
+      primary: ["panduan supplier frozen food berkualitas", "https://meatfish.id/supplier-frozen-food-berkualitas-solusi-modern-bersama-meatfish/"],
+      companion: ["panduan memilih seafood berkualitas", "https://meatfish.co.id/seafood-jenis-manfaat-cara-memilih/"]
+    },
+    {
+      test: /\b(ikan|salmon|dori|lele|kakap|tuna|gurame|bandeng|patin|nila)\b/,
+      context: "Sebagai referensi saat memilih ikan dan produk beku, lanjutkan ke",
+      primary: ["panduan belanja ikan frozen Meat & Fish", "https://meatfish.id/daftar-harga-ikan-frozen-terlengkap-2025-panduan-belanja-cerdas-bersama-meatfish/"],
+      companion: ["ciri ikan frozen berkualitas", "https://meatfish.co.id/ikan-frozen-berkualitas-ciri-dan-cara-memilih/"]
+    },
+    {
+      test: /\b(ayam|chicken|ceker)\b/,
+      context: "Untuk referensi bahan ayam dan pengolahan yang lebih praktis, baca",
+      primary: ["panduan mengolah daging ayam", "https://meatfish.id/cara-membuat-daging-giling-ayam-panduan-lengkap-praktis-dan-higienis/"],
+      companion: ["panduan daging ayam frozen", "https://meatfish.co.id/daging-ayam-frozen-panduan-memilih-dan-mengolah/"]
+    },
+    {
+      test: /\b(daging|beef|steak|sapi|kambing|rendang|iga)\b/,
+      context: "Untuk memilih pasokan daging yang sesuai bagi dapur maupun usaha, baca",
+      primary: ["panduan supplier daging frozen", "https://meatfish.id/suplier-daging-frozen-untuk-usaha-kuliner-panduan-lengkap-agar-bisnis-semakin-efisien-dan-menguntungkan/"],
+      companion: ["panduan memilih frozen meat", "https://meatfish.co.id/frozen-meat-jenis-kegunaan-dan-cara-memilih/"]
+    },
+    {
+      test: /\b(frozen|beku|freezer|nugget|bakso|sosis)\b/,
+      context: "Untuk memahami mutu, penyimpanan, dan pemilihan produk beku, baca",
+      primary: ["panduan supplier frozen food berkualitas", "https://meatfish.id/supplier-frozen-food-berkualitas-solusi-modern-bersama-meatfish/"],
+      companion: ["panduan memilih frozen food berkualitas", "https://meatfish.co.id/panduan-memilih-frozen-food-berkualitas/"]
+    },
+    {
+      test: /\b(supplier|distributor|grosir|agen|reseller|pemasok|bisnis|usaha|restoran|rumah makan|kafe|cafe|hotel|katering|catering)\b/,
+      context: "Untuk menilai pasokan dan peluang usaha kuliner secara lebih lengkap, baca",
+      primary: ["solusi supplier untuk usaha kuliner", "https://meatfish.id/supplier-frozen-food-untuk-warung-makan-solusi-praktis-untung-besar/"],
+      companion: ["peluang bisnis frozen food dari rumah", "https://meatfish.co.id/peluang-bisnis-frozen-food-dari-rumah/"]
+    },
+    {
+      test: /\b(gizi|nutrisi|protein|sehat|kesehatan|anak|keluarga|bekal|sarapan)\b/,
+      context: "Untuk pilihan menu praktis yang tetap memperhatikan kebutuhan keluarga, baca",
+      primary: ["referensi menu ikan frozen praktis", "https://meatfish.id/frozen-ikan-untuk-sahur-praktis-sehat-dan-tetap-nikmat-bareng-meatfish/"],
+      companion: ["ide menu frozen food untuk keluarga", "https://meatfish.co.id/ide-menu-frozen-food-praktis-untuk-keluarga/"]
+    }
+  ];
+
+  var fallback = {
+    context: "Untuk menambah referensi bahan dan peluang usaha kuliner, baca",
+    primary: ["panduan supplier frozen food berkualitas", "https://meatfish.id/supplier-frozen-food-berkualitas-solusi-modern-bersama-meatfish/"],
+    companion: ["panduan memilih frozen food berkualitas", "https://meatfish.co.id/panduan-memilih-frozen-food-berkualitas/"]
+  };
+
+  function pickDestination(subject) {
+    for (var index = 0; index < destinations.length; index += 1) {
+      if (destinations[index].test.test(subject)) return destinations[index];
+    }
+    return fallback;
+  }
+
+  function appendReference(container, destination) {
+    var hasPrimary = container.querySelector('a[href^="https://meatfish.id/"]');
+    var hasCompanion = container.querySelector('a[href^="https://meatfish.co.id/"]');
+    if (hasPrimary && hasCompanion) return;
+
+    var references = [];
+    if (!hasPrimary) references.push(destination.primary);
+    if (!hasCompanion) references.push(destination.companion);
+    if (!references.length) return;
+
+    var box = document.createElement("aside");
+    box.className = "meatfish-contextual-references";
+    box.setAttribute("aria-label", "Referensi Meat & Fish terkait");
+    box.style.cssText = "margin:28px 0;padding:18px 20px;border-left:4px solid #c52026;background:#f7f7f7;line-height:1.65";
+
+    var paragraph = document.createElement("p");
+    paragraph.style.margin = "0";
+    paragraph.appendChild(document.createTextNode(destination.context + " "));
+
+    references.forEach(function (reference, index) {
+      if (index > 0) paragraph.appendChild(document.createTextNode(" dan "));
+      var link = document.createElement("a");
+      link.href = reference[1];
+      link.textContent = reference[0];
+      link.target = "_blank";
+      link.rel = "noopener noreferrer";
+      paragraph.appendChild(link);
+    });
+    paragraph.appendChild(document.createTextNode("."));
+    box.appendChild(paragraph);
+    container.appendChild(box);
+  }
+
+  onReady(function () {
+    if (!document.body || !document.body.classList.contains("single-post")) return;
+    var container = document.getElementById("mvp-post-content");
+    if (!container || container.querySelector(".meatfish-contextual-references")) return;
+
+    var subject = (document.title + " " + window.location.pathname).toLowerCase();
+    var isAsySyams = /asy[\s-]?syams|asysyams/.test((document.title + " " + window.location.hostname).toLowerCase());
+    var educationRelevance = /\b(franchise|waralaba|kemitraan|makanan|menu|bekal|gizi|nutrisi|protein|masak|memasak|kuliner|katering|catering|restoran|ikan|seafood|udang|cumi|kerang|kepiting|lobster|salmon|dori|lele|kakap|tuna|gurame|bandeng|ayam|daging|beef|steak|rendang|iga|bakso|sosis|nugget|frozen|beku|freezer|resep|jajanan|camilan|sarapan)\b/;
+    if (isAsySyams && !educationRelevance.test(subject)) return;
+
+    appendReference(container, pickDestination(subject));
+  });
+})();
